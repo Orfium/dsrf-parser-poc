@@ -1,0 +1,33 @@
+HEAD	dsrf/1.1/1.4.1/1.3	BasicAudioProfile	1.3	1234567890	2020-07-03T07:59:30Z	1	1	2020-06-01	2020-06-30	PADPIDA0123456766K	Unlimited Music	UnlimitedMusicMonthly	PADPIDA00123456743	Music Licensor Ltd.							
+#HEAD	MessageVersion	Profile	ProfileVersion	MessageId	MessageCreatedDateTime	FileNumber	NumberOfFiles	UsageStartDate	UsageEndDate	SenderPartyId	SenderName	ServiceDescription	RecipientPartyId	RecipientName	RepresentedRepertoire						
+#SY01.02	SummaryRecordId	DistributionChannel	DistributionChannelDPID	CommercialModel	UseType	Territory	ServiceDescription	TotalUsages	Subscribers	CurrencyOfReporting	NetRevenue	IndirectValue	CurrencyOfTransaction	ExchangeRate							
+SY01.02	S1	Unlimited Music	PADPIDA12345SDF	SubscriptionModel		GB	Unlimited Music Monthly	3160	346563	GBP	5000.00	0.00	GBP	1.00							
+#RE01.02	BlockId	ReleaseReference	DspReleaseId	ProprietaryReleaseId	CatalogNumber	ICPN	DisplayArtistName	DisplayArtistPartyId	Title	SubTitle	ReleaseType	LabelName	PLine	DataProviderName	ReleaseDate						
+RE01.02	1	R1	B002X46CDK			825646846917	Enya		The Very Best Of Enya (Deluxe) (Amazon Exclusive)		Album	Warner UK	(p) 2009 This compilation 2009 Warner Music UK Ltd (c) 2009 WARNER MUSIC UK LTD	Warner UK							
+#AS02.03	BlockId	ResourceReference	DspResourceId	ISRC	Title	SubTitle	DisplayArtistName	DisplayArtistPartyID	Duration	ResourceType	ISWC	ComposerAuthorName	ComposerAuthorPartyId	ArrangerName	ArrangePartyID	MusicPublisherName	MusicPublisherPartyId	WorkContributorName	WorkContributorPartyId	ProprietaryWorkId	IsMasterRecording
+AS02.03	1	B002X426VM-213698703	B002X426VM	GBAHT0900445	Aniron		Enya		PT2M44S	SoundRecording								Roma Ryan|Tom Whalley|Enya|Nicky Ryan			
+#SU02.02	BlockId	SummaryRecordId	SalesTransactionId	TransactedRelease	TransactedResource	IsRoyaltyBearing	NumberOfStreams	PriceConsumerPaidExcSalesTax	PromotionalActivity	UseType											
+SU02.02	1	S1	1B002X426VM2136987030000001		B002X426VM-213698703	TRUE	120			OnDemandStream											
+SU02.02	1	S1	1B002X426VM2136987030000002		B002X426VM-213698703	TRUE	5			ProgrammedContentStream											
+SU02.02	1	S1	1B002X426VM2136987030000003		B002X426VM-213698703	TRUE	314			ContentInfluencedStream											
+RE01.02	2	R2	B0026TSY0Q			696998776920	The Mormon Tabernacle Choir		Joy to the World		Album	Sony Classical/Legacy	"Originally Released 1970 SONY BMG MUSIC ENTERTAINMENT (P) 1977, 1980, 2002 SONY BMG MUSIC ENTERTAINMENT."	Sony Classical/Legacy							
+AS02.03	2	B0026TWJWA-203911976	B0026TWJWA	USSM16900682	We Wish You a Merry Christmas		The Mormon Tabernacle Choir		PT1M57S	SoundRecording		Traditional		David Nelson				The Mormon Tabernacle Choir|Richard P. Condie|Alexander Schreiner|The Philadelphia Brass Ensemble & Percussion|Thomas Frost			
+AS02.03	2	B0026TPGES-203911973	B0026TPGES	USSM16900677	Silent Night		The Mormon Tabernacle Choir		PT4M32S	SoundRecording		Franz Xaver Gruber|Joseph Mohr						Joseph Mohr|The Mormon Tabernacle Choir|Franz Gruber|Thomas Frost			
+SU02.02	2	S1	1B0026TWJWA2039119760000001		B0026TWJWA-203911976	TRUE	443			OnDemandStream											
+SU02.02	2	S1	1B0026TPGES2039119730000001		B0026TPGES-203911973	TRUE	108			OnDemandStream											
+SU02.02	2	S1	1B0026TPGES2039119730000002		B0026TPGES-203911973	TRUE	397			ProgrammedContentStream											
+SU02.02	2	S1	1B0026TPGES2039119730000003		B0026TPGES-203911973	TRUE	88			ContentInfluencedStream											
+RE01.02	3	R3	B0023B44JM			724358271058	The Beach Boys		The Very Best Of The Beach Boys: Sounds Of Summer		Album	Sony Classical/Legacy	" This Compilation 2003 Capitol Catalog (c) 2003 Capitol Records, LLC"	Sony Classical/Legacy							
+AS02.03	3	B0023B68YG-201986787	B0023B68YG	USCA20100360	Good Vibrations (2001 - Remaster)		The Beach Boys		PT3M37S	SoundRecording		Brian Wilson|Michael Edward Love|Mike Love		Brian Wilson				Bill Green|Larry Knechtel|The Beach Boys|Al Casey|Jay Migliori|Brian Wilson|Hal Blaine|Frank Capp|Lyle Ritz|Billy Strange|Plas Johnson|Don Randi|Carl Wilson|Steve Douglas			
+AS02.03	3	B0023AU8XO-201986758	B0023AY8FI	USCA20100337	Barbara Ann (2001 - Remaster)		The Beach Boys		PT2M13S	SoundRecording		Fred Fassert						Dean Torrence|Brian Wilson|The Beach Boys			
+AS02.03	3	B0023AY8FI-201986778	B0023AU8XO	USCA20001686	California Girls (2001 Stereo Remix)		The Beach Boys		PT2M46S	SoundRecording		Mike Love|Brian Wilson		Brian Wilson				Brian Wilson|The Beach Boys			
+SU02.02	3	S1	1B0023B68YG2019867870000001		B0023B68YG-201986787	TRUE	100			ProgrammedContentStream											
+SU02.02	3	S1	1B0023B68YG2019867870000002		B0023B68YG-201986787	TRUE	277			ContentInfluencedStream											
+SU02.02	3	S1	1B0023AU8XO2019867580000001		B0023AU8XO-201986758	TRUE	438			OnDemandStream											
+SU02.02	3	S1	1B0023AU8XO2019867580000002		B0023AU8XO-201986758	TRUE	121			ProgrammedContentStream											
+SU02.02	3	S1	1B0023AU8XO2019867580000003		B0023AU8XO-201986758	TRUE	168			ContentInfluencedStream											
+SU02.02	3	S1	1B0023AY8FI2019867780000001		B0023AY8FI-201986778	TRUE	259			OnDemandStream											
+SU02.02	3	S1	1B0023AY8FI2019867780000002		B0023AY8FI-201986778	TRUE	245			ProgrammedContentStream											
+SU02.02	3	S1	1B0023AY8FI2019867780000003		B0023AY8FI-201986778	TRUE	77			ContentInfluencedStream											
+#FOOT	NumberOfLinesInFile	NumberOfLinesInReport 	NumberOfSummaryRecords	NumberOfBlocksInFile	NumberOfBlocksInReport																
+FOOT	33	33	1	3	3																

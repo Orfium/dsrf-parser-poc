@@ -1,0 +1,18 @@
+HEAD	dsrf/1.3/1.4.1/1.3	BasicAudioProfile	1.3	OMF_1199	2015-11-23T18:29:57Z	1	1	2015-08-01	2015-08-31	PADPIDA2015999999X	DSRFTestCompany	AdFunded	PADPIDA2015999999X	PublisherA									
+#HEAD	MessageVersion	Profile	ProfileVersion	MessageId	MessageCreatedDateTime	FileNumber	NumberOfFiles	UsageStartDate	UsageEndDate	SenderPartyId	SenderName	ServiceDescription	RecipientPartyId	RecipientName	RepresentedRepertoire								
+#SY02.03	SummaryRecordId	DistributionChannel	DistributionChannelDPID	CommercialModel	UseType	Territory	ServiceDescription	Usages	Users	Currency	NetRevenue	RightsController	RightsControllerPartyId	AllocatedUsages	AllocatedRevenue	AllocatedNetRevenue	RightsType	ContentCategory	ExchangeRateBaseCurrency	ExchangeRate	RightsTypePercentage		
+#RE01.02	BlockId	ReleaseReference	DspReleaseId	ProprietaryReleaseId	CatalogNumber	ICPN	DisplayArtistName	DisplayArtistPartyId	Title	SubTitle	ReleaseType	Label	PLine	DataProvider	ReleaseDate								
+#AS02.03	BlockId	ResourceReference	DspResourceId	ISRC	Title	SubTitle	DisplayArtistName	DisplayArtistPartyId	Duration	ResourceType	ISWC	ComposerAuthor	ComposerAuthorPartyId	Arranger	ArrangerPartyId	MusicPublisher	MusicPublisherPartyId	WorkContributor	WorkContributorPartyId	ProprietaryWorkId	IsMasterRecording	IsSubjectToOwnershipConflict	LastConflictCheck
+#SU02.02	BlockId	SummaryRecordId	SalesTransactionId	TransactedRelease	TransactedResource	IsRoyaltyBearing	NumberOfStreams	PriceConsumerPaidExcSalesTax	PromotionalActivity														
+#FOOT	NumberOfLinesInFile	NumberOfLinesInReport	NumberOfSummaryRecords	NumberOfBlocksInFile	NumberOfBlocksInReport																		
+SY02.03	1	DistibutionChannelName	PADPIDA2015999999X	SubscriptionModel	Stream	GB	AdFunded	100		EUR	10	PublisherA	DPID::PADPIDA2015999999X	0	0	0		Music	GBP	0.87			
+RE01.02	1	RL1	04312ef08dfd4ce984d70da69e8f10e6	SonyMusicEntertainment::G010003372874T		731453000000	Leikeli47 feat. Biker Boy Pug		Rip The Summer Up		Album	Sony Music Entertainment	"(P) 2015 Hard Cover LLC & RCA Records, a division of Sony Music Entertainment"	Sony									
+AS02.03	1	RES1	d37700594f044c19a48b1ecde9d96176	USRC11501628	Rip The Summer Up		Leikeli47 feat. Biker Boy Pug		PT199S	SoundRecording												FALSE	
+SU02.02	1	SY1	1	RL1		TRUE	1	0															
+RE01.02	2	RL1	0930c46cd5024372aaea7781e620d3d6	UMG::AXK1246	78945K	731453000000	Scissor Sisters		Ta-Dah		Album	Universal Music Group	(P) 2006 Polydor Ltd. (UK)	Universal Music Group									
+AS02.03	2	RES1	8cc0c9248511470790e2ace2cf627282	GBUM70602587	I Don't Feel Like Dancin' 		Scissor Sisters		PT288S	SoundRecording		Elton John|Jason Sellards|Scott Hoffman	ISNI::0000000109201181||			Universal Music Publishing						FALSE	
+SU02.02	2	SY1	2	RL1		TRUE	1	0															
+RE01.02	3	RL1	09eaeb1802f247449ff9b80ce58a7856	UMG::BRF2544		731453000000	Lamb		Lamb		Album	Universal Music Group	(P) 1996 Mercury Records Limited	UMG									
+AS02.03	3	RES1	d323b29082a24156b4420ebd04ef0801	GBF089601184	Trans Fatty Acid		Lamb		PT457S	SoundRecording												FALSE	
+SU02.02	3	SY1	3	RL1		TRUE	1	0															
+FOOT	18	18	1	3	94																		
